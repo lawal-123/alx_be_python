@@ -6,4 +6,3 @@ multiplication = x * y
 print(addition)
 print(substraction)
 print(multiplication)
-
