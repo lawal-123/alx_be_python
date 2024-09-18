@@ -4,16 +4,16 @@ operation = input("choose the operation (+, -, *, /): ")
 match operation:
     case '+':
         result = num1 + num2
-        print(result)
+        print(f"The result is(result)")
     case '-':
         result = num1 - num2
-        print(result)    
+        print(f"The result is (result)")    
     case '*':
         result = num1 * num2
-        print(result)
+        print(f"The result is(result)")
     case '/':
         if num1/num2 == 0:
             print("error: Division by zero is not allowed")  
         else:
             result = num1/num2
-            print(result)      
+            print(f"Te result is(result)")      
