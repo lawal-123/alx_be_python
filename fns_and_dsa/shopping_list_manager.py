@@ -1,21 +1,17 @@
-# shopping_list_manager.py
-
 def display_menu():
-    print("\nShopping List Manager")
+    print(f"Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-
 def main():
     shopping_list = []
 
     while True:
         display_menu()
-        choice = input("Please choose an option (1-4): ")
-
+        choice = int(input("Please choose an option (1-4): "))
         if choice == '1':
-            item = input("Enter the item name to add: ").strip()
+            item = input("Enter the item to add: ").strip()
             shopping_list.append(item)
             print(f"{item} has been added to the shopping list.")
         
