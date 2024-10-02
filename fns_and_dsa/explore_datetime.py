@@ -1,5 +1,5 @@
 from datetime module  import datetime, timedelta
-def explore_datetime():
+def display_current_datetime():
     current_date = datetime.now()
     formatted_date = current_date.strf("%Y-%m-%d %H:%M:%S")
     return formatted_date
