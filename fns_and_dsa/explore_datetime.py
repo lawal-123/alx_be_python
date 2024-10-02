@@ -1,4 +1,7 @@
-from date time module import datetime, timedelta
+from datetime module  import datetime, timedelta
 def explore_datetime():
-    current_date = ("%Y-%m-%d %H:%M:%S")
-    print(f"current_date_and time: (current_date_and_time)")
+    current_date = datetime.now()
+    formatted_date = current_date.strf("%Y-%m-%d %H:%M:%S")
+    return formatted_date
+def calculate future_date():
+    days = int(input("enter number of days: "))
