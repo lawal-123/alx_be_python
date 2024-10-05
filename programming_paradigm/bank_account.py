@@ -1,7 +1,7 @@
 import sys
 from bank_account import BankAccount
 class BankAccount:
-    def_init_(self, account_balance, initial_balance=0):
+    def__init__(self, account_balance, initial_balance=0):
         self.initial_balance = initial_balance
     def main():
         account = BankAccount(100)  # Example starting balance
