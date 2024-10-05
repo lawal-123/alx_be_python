@@ -2,11 +2,7 @@ import sys
 from bank_account import BankAccount
 class BankAccount:
     def_init_(self, account_balance, initial_balance=0):
-        self.account_balance = account_balance
         self.initial_balance = initial_balance
-        initial_balance = 0
-        initial_balance += account_balance
-        
     def main():
         account = BankAccount(100)  # Example starting balance
         if len(sys.argv) < 2:
