@@ -1,8 +1,8 @@
 import sys
 from bank_account import BankAccount
 class BankAccount:
-    def__init__(self, account_balance, balance=0):
-        self.balance = balance
+    def__init__(self, initial_balance = 0):
+        self.initial_balance = balance
     def main():
         account = BankAccount(100)  # Example starting balance
         if len(sys.argv) < 2:
