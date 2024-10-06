@@ -26,6 +26,6 @@ class BankAccount:
         else:
             print("Invalid command.")
     def display_balance(self):
-        print(f"current balance: ${self.balance:.2f}")
+        print(f"Current Balance: ${self.balance:.2f}")
 if __name__ == "__main__":
     main()
