@@ -1,6 +1,8 @@
 import sys
 from bank_account import BankAccount
-class bank_account:
+class BankAccount:
+    def__init__(self, initial_balance = 0):
+        self.initial_balance = balance
     def main():
         account = BankAccount(100)  # Example starting balance
         if len(sys.argv) < 2:
@@ -23,5 +25,7 @@ class bank_account:
         account.display_balance()
         else:
             print("Invalid command.")
+    def display_balance(self):
+        print(f"Current Balance: ${self.balance:.2f}")
 if __name__ == "__main__":
     main()
