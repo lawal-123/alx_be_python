@@ -4,7 +4,7 @@ class Book:
         self.author = author
     def __str__(self):
         reurn f"{self.title} by {self.author}"
-class Ebook(Book):
+class EBook(Book):
     def __init__(self, title, autor, file_size):
         self.file_size = file_size
     def __str__(self):
