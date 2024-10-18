@@ -38,9 +38,10 @@ def main():
     library = Library()
 
     # Create some book instances
-    book1 = PrintBook("1984", "George Orwell", 328)
-    book2 = EBook("The Great Gatsby", "F. Scott Fitzgerald", 2)
-    book3 = PrintBook("To Kill a Mockingbird", "Harper Lee", 281)
+     classic_book = Book("Pride and Prejudice", "Jane Austen")
+    digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
+    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
+
 
     # Add books to the library
     library.add_book(book1)
