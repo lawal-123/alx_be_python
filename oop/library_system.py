@@ -38,9 +38,9 @@ def main():
     library = Library()
 
     # Create some book instances
-Book: Pride and Prejudice by Jane Austen
-EBook: Snow Crash by Neal Stephenson, File Size: 500KB
-PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
+    classic_book = Book("Pride and Prejudice", "Jane Austen")
+    digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
+    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
     # Add books to the library
     library.add_book(book1)
