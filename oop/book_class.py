@@ -6,7 +6,6 @@ class Book:
     def __del__(self):
         """Destructor that prints a deletion message."""
         print(f"Deleting {self.title}")
-
     def __str__(self):
         """String representation of the Book instance."""
         return f"{self.title} by {self.author}, published in {self.year}"
